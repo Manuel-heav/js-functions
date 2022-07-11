@@ -1,6 +1,7 @@
 // in modern javascript, don't use var...
 // 1. hoisted to the top of scope may introduce undefined variable bugs.
-// 2.
+// 2. var is unpredictable in certain circumstances
+// Use
 
 // A variable without a value is undefined
 // when using var before intiialized the error will just be undefined...but with let and const the error will be cannot access "variable" before initialization.
