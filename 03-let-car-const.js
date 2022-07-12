@@ -19,7 +19,7 @@ function doTheThing() {
   var result = 43;
 }
 
-// let is hoisted ...but we cant use it before initialization
+// let is hoisted ..but we cant use it before initialization
 
 function doTheThing() {
   if (true) {
