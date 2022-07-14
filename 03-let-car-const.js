@@ -4,6 +4,7 @@
 // Use let or const instead
 //  If a variable will be re-assigned, use let
 // If a variable will not be re-assigned, use const
+//  const and let has block scopes(anything with curly brace is is a block, if, while, functions)
 
 // A variable without a value is undefined
 // when using var before intiialized the error will just be undefined...but with let and const the error will be cannot access "variable" before initialization.
