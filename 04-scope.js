@@ -13,4 +13,22 @@ function sayHello() {
 }
 
 // This wouldnt work because of function scope
-console.log(name);
+// console.log(name);
+
+// If I wanted to get the variables inside the function outside
+function createGame() {
+  const gameName = "Aman's Game";
+  const players = ["aman", "blogrammer"];
+
+  return {
+    getName() {
+      return gameName;
+    },
+    getPlayers() {
+      return players;
+    },
+  };
+}
+
+const game = createGame();
+console.log(game.getName());
