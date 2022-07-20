@@ -32,3 +32,5 @@ function createGame() {
 
 const game = createGame();
 console.log(game.getName());
+
+// This is called closures, getting variables inside a function by creating fucntion in return values called encapsulation.
