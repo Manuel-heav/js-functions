@@ -1,4 +1,4 @@
-// in modern javascript, don't use var...
+// in modern javascript, don't use var..
 // 1. hoisted to the top of scope may introduce undefined variable bugs.
 // 2. var is unpredictable in certain circumstances
 // Use let or const instead
